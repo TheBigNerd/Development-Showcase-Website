@@ -1,16 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
+import { AuroraBackground } from "@/components/ui/aurora-background";
+import Navbar from "@/components/ui/Navbar"
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const inter = Inter();
 
 export const metadata: Metadata = {
   title: "Nerd Dev Showcase",
@@ -25,9 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.className} antialiased`}
       >
-        {children}
+        <Navbar></Navbar>
+        <AuroraBackground>
+          {children}
+        </AuroraBackground>
       </body>
     </html>
   );
