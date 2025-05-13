@@ -4,7 +4,7 @@ import "./globals.css";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import Navbar from "@/components/ui/Navbar"
 
-const inter = Inter();
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: "Nerd Dev Showcase",
