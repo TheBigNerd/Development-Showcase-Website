@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-import { RiNextjsFill } from 'react-icons/ri';
 
 const Navbar = () => {
     return(
