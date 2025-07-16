@@ -19,7 +19,7 @@ const projects = [
     description: "An E-commerce platform built for my placement company Overcore.",
     technologies: ["Next.js", "TypeScript", "React", "PostgreSQL", "Stripe", "Prisma"],
     githubUrl: "https://github.com/TheBigNerd/Development-Showcase-Website",
-    image: "/project-placeholder.jpg"
+    image: "/overcore.png"
   },
   
 ];
