@@ -25,8 +25,8 @@ export default function projects() {
              Multiagent Systems, Data Mining and Advanced Database Systems and GIS.
             <br />
             <br />
-            As part of my final year I am also working on a project to create software that can be used of UAVs during a disaster recovery scenario to help in search and rescue operations. If this goes well an extension
-            of this project will be to create a program that usalises these UAVs to create an ad-hoc network to for communication.
+            As part of my final year I am also working on a project to create software that can be used on UAVs during a disaster recovery scenario to help in search and rescue operations. If this goes well I can further this
+            project to create a program that utilises these UAVs to create an ad-hoc network for communication.
           </p>
         </CardContent>
       </Card>
